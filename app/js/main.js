@@ -1,5 +1,8 @@
 $(function () {
 
+    $('.header__top-close').on('click', function() {
+        $('.header__top').toggle();
+    });
 
     $('.top-slider__inner').slick({
         dots: false,
