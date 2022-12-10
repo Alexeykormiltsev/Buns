@@ -1,5 +1,10 @@
 $(function () {
 
+
+    $('.header__menu-btn').on('click', function () {
+        $('.menu__list').toggleClass('menu__list--active');
+      });
+
     $('.header__top-close').on('click', function() {
         $('.header__top').toggle();
     });

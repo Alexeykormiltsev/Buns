@@ -76,7 +76,9 @@
     &__menu {
         display: flex;
     }
-
+&__menu-btn{
+ display: none;
+}
     .logo {
         margin-left: 24px;
     }
@@ -127,12 +129,12 @@
 
 .top-slider {
     background-color: #FFC3A0;
-    min-height: 570px;
+    // min-height: 570px;
 
     &__item {
         display: flex !important;
         justify-content: space-between;
-        padding: 24px 0;
+        padding: 24px 8px;
     } 
 
     &__content {
