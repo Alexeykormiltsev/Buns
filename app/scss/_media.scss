@@ -172,6 +172,23 @@
             }
         }
     }
+
+    .footer {
+        .footer-top {
+            &__inner {
+                flex-wrap: wrap;
+            }
+
+            &__logo {
+                margin-right: 30px;
+                margin-bottom: 30px;
+            }
+
+            &__items {
+                margin: 0 20px 30px;
+            }
+        }
+    }
 }
 
 @media (max-width:800px) {
@@ -270,6 +287,23 @@
         &__legend {
             &::before {
                 display: none;
+            }
+        }
+    }
+
+    .footer {
+        .footer-top {
+            &__title {
+                font-size: 32px;
+                line-height: 42px;
+            }
+
+            &__form-input {
+                padding: 7px 30px;
+            }
+
+            &__inner {
+                padding: 30px 0;
             }
         }
     }
